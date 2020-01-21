@@ -11,7 +11,9 @@ while c[0].lower() == "y":
         top += 1
         s.append(int(input("enter number: ")))
     elif ch == "2":
-        if not s: print("underflow")
+        if top < 0:
+            print("underflow")
+            continue
         s.pop(top)
         top -= 1
     elif ch == "3":
