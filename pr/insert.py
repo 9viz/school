@@ -2,7 +2,7 @@ def findpos(lst, item):
     if   item < lst[0]:  return 0
     elif item > lst[-1]: return len(lst)
     for i in range(len(lst)):
-        if item >= lst[i]:# and \     # is item greater than the cur  item?
+        if item >= lst[i]:            # is item greater than the cur  item?
            if item <= lst[i + 1]:     # is item lesser  than the next item?
             return i + 1
 

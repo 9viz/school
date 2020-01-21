@@ -1,3 +1,5 @@
+# subplot(nrows, ncols, index)
+
 import matplotlib.pyplot as plt
 from math import log, log10
 
